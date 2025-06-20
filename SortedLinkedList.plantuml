@@ -1,0 +1,17 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class SortedLinkedList {
+  + SortedLinkedList(String): 
+  - SC: Scanner
+  - sortedList: LinkedList<Integer>
+  + getSortedLinkedList(): LinkedList<Integer>
+  - createSortedLinkedList(String): LinkedList<Integer>?
+  + toString(): String
+  + main(String[]): void
+}
+
+@enduml
