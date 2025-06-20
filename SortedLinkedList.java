@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
  * <pre>
  * Command Used to create Javadocs:
  *
- * javadoc -d javadoc src/*.java
+ * javadoc -d docs *.java
  * </pre>
  */
 public class SortedLinkedList {
@@ -102,7 +102,7 @@ public class SortedLinkedList {
          * java -cp bin SortedLinkedList.java
          *
          * Command Used to create Javadocs:
-         * javadoc -d javadoc src/*.java
+         * javadoc -d docs *.java
          */
 
         System.out.println("Enter a comma separated list of integers.");
